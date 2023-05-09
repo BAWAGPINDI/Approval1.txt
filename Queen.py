@@ -402,7 +402,7 @@ xxxxx=(f"GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","G
 def tnx():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "_".join(uuid)
-  server = requests.get('https://github.com/JUTTBRAND/BRAND/blob/main/Approval.txt').text
+  server = requests.get('https://github.com/BAWAGPINDI/Approval1.txt/blob/main/Aprovalking.txt').text
   
  
 
@@ -411,7 +411,7 @@ def tnx():
   
   print("\x1b[1;97m  CHECKING YOUR APROVAL.............                                                ");time.sleep (0.5)
   try:
-    httpCaht = requests.get("https://github.com/JUTTBRAND/BRAND/blob/main/Approval.txt").text
+    httpCaht = requests.get("https://github.com/BAWAGPINDI/Approval1.txt/blob/main/Aprovalking.txt").text
     if id in httpCaht:
       print("\033[1;97m   YOUR TOKEN APROVED ðŸ¥€ ");time.sleep(2)
       msg = str(os.geteuid())
@@ -421,7 +421,7 @@ def tnx():
       
       print("\x1b[1;97m    Sorry Bro Your Token not AprovedðŸ˜“ ")
       print("    Send payment to Admin and get aproval"); time.sleep(2)
-      os.system('xdg-open https://wa.me/+923231243823')
+      os.system('xdg-open https://wa.me/+923350723883')
       time.sleep(2)
       sys.exit()
   except:
@@ -433,7 +433,7 @@ def tnx():
 def menu_apikey():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "_".join(uuid)
-  server = requests.get('https://github.com/JUTTBRAND/BRAND/blob/main/Approval.txt').text
+  server = requests.get('https://github.com/BAWAGPINDI/Approval1.txt/blob/main/Aprovalking.txt').text
   print(logo)
   print("\t \033[1;37m  FIRST GET APPROVEL\033[1;37m ")
   print("")
@@ -446,11 +446,11 @@ def menu_apikey():
   print("\033[1;37m   COPY YOUR KEY AND SEND TO ADMIN  ");time.sleep(0.1)
   print("")
   print("  SEND KEY ON ADMIN WHATSAPP,,,,,,,,,,,,,,,,,    ");time.sleep(1)
-  os.system('xdg-open https://wa.me/+923231243823')
+  os.system('xdg-open https://wa.me/+923350723883')
   print("");time.sleep(2)
   print("\x1b[1;97m  CHECKING YOUR APROVAL.............                                                ");time.sleep (0.5)
   try:
-    httpCaht = requests.get("https://github.com/JUTTBRAND/BRAND/blob/main/Approval.txt").text
+    httpCaht = requests.get("https://github.com/BAWAGPINDI/Approval1.txt/blob/main/Aprovalking.txt").text
     if id in httpCaht:
       print("\033[1;97m   YOUR TOKEN APROVED ðŸ¥€ ");time.sleep(2)
       msg = str(os.geteuid())
@@ -460,7 +460,7 @@ def menu_apikey():
       
       print("\x1b[1;97m    Sorry Bro Token Key not AprovedðŸ˜“")
       print("    Send payment to Admin and get aproval"); time.sleep(2)
-      os.system('xdg-open https://wa.me/+923231243823')
+      os.system('xdg-open https://wa.me/+923350723883')
       time.sleep(2)
       sys.exit()
   except:
@@ -475,7 +475,7 @@ menu_apikey()
 def tnx():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "_".join(uuid)
-  server = requests.get('https://github.com/JUTTBRAND/BRAND/blob/main/Approval.txt').text
+  server = requests.get('https://github.com/BAWAGPINDI/Approval1.txt/blob/main/Aprovalking.txt').text
   
  
  
@@ -485,7 +485,7 @@ def tnx():
   print(" Chacking Your Aproval ")
   print("\x1b[1;97m  CHECKING YOUR APROVAL.............                                                ");time.sleep (0.5)
   try:
-    httpCaht = requests.get("https://github.com/JUTTBRAND/BRAND/blob/main/Approval.txt").text
+    httpCaht = requests.get("https://github.com/BAWAGPINDI/Approval1.txt/blob/main/Aprovalking.txt").text
     if id in httpCaht:
       print("\033[1;97m   YOUR TOKEN APROVED ðŸ¥€ ");time.sleep(2)
       msg = str(os.geteuid())
@@ -495,7 +495,7 @@ def tnx():
       
       print("\x1b[1;97m    Sorry Bro Your Token not AprovedðŸ˜“ ")
       print("    Send payment to Admin and get aproval"); time.sleep(2)
-      os.system('xdg-open https://wa.me/+923231243823')
+      os.system('xdg-open https://wa.me/+923350723883')
       time.sleep(2)
       sys.exit()
   except:
